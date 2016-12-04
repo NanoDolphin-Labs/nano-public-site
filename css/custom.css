@@ -1,0 +1,309 @@
+.centered-text {
+    text-align:center
+}  
+body {
+	color: #111111;
+ 	font-family: 'Source Sans Pro', sans-serif;
+    /**
+    background-color: #63a3dc;
+    color: white;
+    **/
+}   
+
+.navbar .brand, .branded {
+  color: #dd224b;
+}
+.hr-brand {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #dd224b;
+    margin: 1em 0; padding: 0;
+}
+
+.nano {
+  color: #dd224b;
+}
+
+.divider {
+   border-bottom: #aeaeae 1px solid;
+   /* remember, that's COLOR SIZE STYLE*/
+}
+.divider-top {
+   border-top:#aeaeae 1px solid;
+   /* remember, that's COLOR SIZE STYLE*/
+}
+
+.shadow {
+-moz-box-shadow:0px 5px 20px rgba(0,0,0,0.3);
+-webkit-box-shadow:0px 5px 20px rgba(0,0,0,0.3);
+box-shadow:0px 5px 20px rgba(0,0,0,0.3);
+}
+
+h1, h2, h3, h4 {
+  font-size: 170%;
+}
+
+
+.brand {
+    color: #dd224b;
+}
+
+.brand a {
+  color: #dd224b;
+}
+
+.brand a:hover {
+  color: #dd224b;
+}
+
+
+.redbox {
+  background-color: #dd224b;
+  color: white;
+  font-weight: 900;
+  font-size: 170%;
+  padding: 30px;
+  margin: 20px;
+}
+
+.redbox2 {
+  background-color: #dd224b;
+  color: white;
+  font-weight: 900;
+  padding: 10px;
+  margin: 0px;
+}
+
+
+.job-title {
+  color: #dd224b;
+  font-size: 130%;
+}
+
+.mail a{
+  text-decoration: none;
+  color: #dd224b;
+  font-weight: 400;
+}
+
+.screenshot {
+	padding: 3px;
+}
+
+.center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+}
+
+
+.med-img {
+  width: 175px;
+}
+.small-img {
+    width: 100px;
+}
+
+.customer-header {
+
+/*font-family: 'Geo', sans-serif;*/
+
+}
+
+
+.text-highlight {
+	text-transform: uppercase;
+	font-size: 24px;
+	padding: 20px;
+}
+
+
+
+
+.hosting-container{
+
+}
+
+.hosting-head {
+  border-bottom-color: #dd224b;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  margin-bottom: 5px;
+}
+
+
+.hosting-body ul {
+    list-style: none;
+    list-style-image:url('../images/red-plus-10.png');
+}
+
+.hosting-body li:before {
+    /*content: "+";*/
+    margin-right: 4px;
+}
+
+.marketing ul {
+  list-style: none;
+}
+
+.marketing a i {
+ position: absolute;
+ margin: 2px 0 0 -1.5rem;
+ text-align: center;
+ display: inline-block;
+ width: 1rem;
+}
+
+.marketing a i{
+  color: #777;
+}
+
+.marketing a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.brand-feature {
+  font-weight: 700;
+  font-size: 120%;
+}
+.slash-slash {
+  color: red;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nano-divider {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.navlink {
+  color: black;
+  background-color: white;
+  font-weight: 700;
+  font-size: 160%;
+  padding: 30px;
+} 
+
+.navlink a {
+  color: black;
+}
+
+.navlink:hover {
+  color: white;
+  background-color: #dd224b;
+  cursor:hand;
+
+}
+
+.navlink a:hover {
+  color: white;
+  background-color: #dd224b;
+  cursor:hand;
+
+}
+
+
+.employee-well {
+  padding: 20px;
+  background-color: #f8f8f8;
+
+  border-color: #eee;
+  border-width: 0px;
+  border-style: solid;
+
+  margin-bottom: 10px;
+}
+
+
+.tech-icon {
+  width: 100px;
+  
+}
+
+.nano-divider-container {
+  border-bottom-color: #222;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 40px;
+}
+
+.divider-title {
+  font-weight: 400;
+  margin-bottom: -20px;
+  background-color: white;
+  width: 100px;
+   color: #dd224b;
+}
+
+.divider-title-long {
+  font-weight: 400;
+  margin-bottom: -20px;
+  background-color: white;
+  width: 150px;
+   color: #dd224b;
+}
+
+
+#map-canvas { 
+  width: 100%;
+  height: 200px;
+}
+
+.list-padding {
+  width: 30px;
+}
+
+.social-icons a {
+  color: #777;
+  text-decoration: none
+
+}
+.social-icons a:hover {
+  color: #dd224b;
+}
+
+.inline {
+  display: inline-block;
+  padding: 10px;
+}
+
+
+.portrait {
+  padding-bottom: 10px;
+
+}
+
+
+.grey-contact {
+  color: #888;
+}
+
+.grey-contact a {
+  color: #888;
+  font-size: 140%;
+}
+
+.grey-contact a:hover {
+  color: #dd224b;
+}
+
+.contact-form input {
+  border-color: #333;
+  border-width: 2px;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  border-color: #333;
+  border-width: 2px;
+  border-radius: 4px;
+}
+
+#mc_embed_signup form {
+  padding: 0px !important;
+}
